@@ -82,9 +82,6 @@ body {
 .product-item {
   width: calc(100% / 3);
   margin-bottom: 16px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 18px;
   margin-bottom: 12px;
   margin-bottom: 8px;
   margin-top: 24px;
@@ -95,12 +92,7 @@ body {
   font-weight: 600;
   width: calc(100% / 3);
   margin-bottom: 16px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 18px;
-  margin-bottom: 12px;
   margin-bottom: 8px;
-  margin-top: 24px;
 }
 
 .product-item-image {
@@ -110,18 +102,9 @@ body {
   font-weight: 600;
   border-radius: 18px;
   margin-bottom: 12px;
-  margin-bottom: 8px;
-  margin-top: 24px;
 }
 
 .price {
-  width: calc(100% / 3);
-  margin-bottom: 16px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 18px;
-  margin-bottom: 12px;
-  margin-bottom: 8px;
   margin-top: 24px;
 }
 
