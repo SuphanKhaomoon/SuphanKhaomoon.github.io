@@ -1,10 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 body {
     color: #4a4a4a;
+    padding: 0;
+    margin: 0;
 }
 
 /* Common */
@@ -75,6 +72,7 @@ nav div h3 {
 }
 
 /* Section 1 */
+
 button {
     width: 100%;
     padding: 8px 0;
@@ -101,7 +99,12 @@ button {
 .custom-margin-bottom-24 {
     margin-bottom: 24px;
 }
-
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+.margin-bottom-8 {
+    margin-bottom: 8px;
+}
 
 /* Section 3 */
 .padding-72 {
@@ -114,6 +117,13 @@ button {
 .margin-left-32 {
     margin-left: 32px;
 }
+.clear-padding {
+    padding: 0;
+}
+.margin-left-12 {
+    margin-left: 12px;
+}
+
 
 /* Section 4 */
 .section4-h3 {
