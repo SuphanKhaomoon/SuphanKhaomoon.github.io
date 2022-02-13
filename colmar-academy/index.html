@@ -16,12 +16,12 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="menu-bar padding-24 bg-color">
-        <div>
-            <img src="./images/ic-logo.svg" alt="logo">
+    <nav class="menu-bar padding-lr-24 bg-color">
+        <div class="d-flex align-items-center">
+            <img src="./images/ic-logo.svg" alt="logo" width="48px">
             <h3 class="font-size"><span class="text-color">COLMAR</span><span class="text-secondary">ACADEMY</span></h3>
         </div>
-        <ul class="nav-list">
+        <ul class="nav-list margin-bottom-0">
             <li class="nav-item"><a href="#" class="link-secondary text-color">On campus</a></li>
             <li class="nav-item"><a href="#" class="link-secondary text-color">Online</a></li>
             <li class="nav-item"><a href="#" class="link-secondary text-color">or companies</a></li>
@@ -35,7 +35,7 @@
             <div class="col-7">
                 <img src="./images/banner.jpg" alt="banner" width="100%">
             </div>
-            <div class="col d-flex align-items-center margin-left-24">
+            <div class="col d-flex align-items-center">
                 <div class="row d-flex flex-column">
                     <div class="col margin-bottom-16">
                         <h1><strong>Learn something</strong><br><strong>new everyday</strong></h1>
@@ -57,50 +57,49 @@
 
     <!-- Section2 -->
     <!-- <section class="min-vh-100"> -->
-    <section class="container custom-padding-1-2 min-vw-100">
+    <section class="container min-vw-100">
         <div class="row">
-            <div class="col-7">
+            <div class="col-7 custom-padding-1-2">
                 <img src="./images/information-main.jpg" alt="information main" width="100%" height="auto">
-                <h1 class="custom-margin-top-32 custom-margin-bottom-24"><strong>It doesn't hurt to keep practicing</strong></h1>
-                <p>
+                <h2 class="margin-top-32 custom-margin-bottom-24"><strong>It doesn't hurt to keep practicing</strong></h2>
+                <p class="custom-line-height">
                     "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,<br>
                     nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam<br>
                     eget magna laoreet, efficitur dolor consequat, tristique ligula."
                 </p>
-                <p>
+                <p class="margin-bottom-0">
                     Emanuel, Sr Strategist at Hiring.com
                 </p>
             </div>
-            <div class="col d-flex flex-column justify-content-around">
-                <div class="row padding-16 padding-bottom-16">
-                    <div class="col-4">
-                        <!-- <div> -->
+            <div class="col custom-flex-column padding-tb-32 margin-left-24 border-vertical">
+                <div class="row margin-blr-16">
+                    <div class="col-4 clear-padding">
                             <img src="./images/information-orientation.jpg" width="100%">
-                        <!-- </div> -->
                     </div>
-                    <div class="col d-flex flex-column justify-content-center">
+                    <div class="col d-flex flex-column justify-content-center margin-left-12">
                         <h5>Orientation date</h5>
-                        <p>Tue 10/11 & 10/12: 8am-3pm</p>
+                        <p class="margin-bottom-8">Tue 10/11 & 10/12: 8am-3pm</p>
                         <a href="#" class="">Read more</a>
                     </div>
                 </div>
-                <div class="row padding-16 padding-bottom-16">
-                    <div class="col-4">
+                <hr class="hr">
+                <div class="row margin-tbl-16 padding-tbl-16 border-top custom-position-1">
+                    <div class="col-4 clear-padding">
                         <img src="./images/information-campus.jpg" width="100%">
                     </div>
-                    <div class="col d-flex flex-column justify-content-center">
+                    <div class="col d-flex flex-column justify-content-center margin-left-12">
                         <h5>Our Campus</h5>
-                        <p>Find which campus is close by you</p>
+                        <p class="margin-bottom-8">Find which campus is close by you</p>
                         <a href="#" class="">Read more</a>
                     </div>
                 </div>
-                <div class="row padding-16 padding-bottom-16 bg-gray">
-                    <div class="col-4">
+                <div class="row margin-tbl-16 padding-tbl-16 custom-position-2 bg-gray">
+                    <div class="col-4 clear-padding">
                         <img src="./images/information-guest-lecture.jpg" width="100%">
                     </div>
-                    <div class="col d-flex flex-column justify-content-center">
+                    <div class="col d-flex flex-column justify-content-center margin-left-12">
                         <h5>Our guest lecture</h5>
-                        <p>Find which campus is close by you</p>
+                        <p class="margin-bottom-8">Find which campus is close by you</p>
                         <a href="#" class="">Read more</a>
                     </div>
                 </div>
@@ -110,7 +109,7 @@
     <!-- </section> -->
 
     <!-- Section3 -->
-    <section class="custom-padding-3">
+    <section class="custom-padding-3 custom-background min-vw-100 section3">
         <h1 class="text-center"><strong>Start learning</strong></h1>
         <div class="container padding-72">
             <div class="row margin-bottom-32">
@@ -119,7 +118,7 @@
                     <div class="card-body padding-16">
                         <h5 class="card-title">Software engineering</h5>
                         <h6 class="card-subtitle mb-2 text-muted">COURSES</h6>
-                        <p class="card-text">Web Development, Mobile<br>Development, iOT, APIs</p>
+                        <p class="text-secondary">Web Development, Mobile<br>Development, iOT, APIs</p>
                     </div>
                 </div>
                 <div class="col card clear-padding">
@@ -127,7 +126,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Computer art</h5>
                         <h6 class="card-subtitle mb-2 text-muted">COURSES</h6>
-                        <p class="card-text">Imaging & Design, Web Design,<br>Motion Graphics & Visual
+                        <p class="text-secondary">Imaging & Design, Web Design,<br>Motion Graphics & Visual
                             Effects,<br>Computer Animation</p>
                     </div>
                 </div>
@@ -136,7 +135,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Design</h5>
                         <h6 class="card-subtitle mb-2 text-muted">COURSES</h6>
-                        <p class="card-text">User Experience Design, User<br>Research, Visual Design</p>
+                        <p class="text-secondary">User Experience Design, User<br>Research, Visual Design</p>
                     </div>
                 </div>
             </div>
@@ -146,7 +145,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Data</h5>
                         <h6 class="card-subtitle mb-2 text-muted">COURSES</h6>
-                        <p class="card-text">Data Science, Big Data, SQL, Data<br>Visualization</p>
+                        <p class="text-secondary">Data Science, Big Data, SQL, Data<br>Visualization</p>
                     </div>
                 </div>
                 <div class="col card clear-padding" style="width: 18rem;">
@@ -154,7 +153,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Business</h5>
                         <h6 class="card-subtitle mb-2 text-muted">COURSES</h6>
-                        <p class="card-text">Product Development, Business<br>Development, Startup</p>
+                        <p class="text-secondary">Product Development, Business<br>Development, Startup</p>
                     </div>
                 </div>
                 <div class="col card margin-left-32 clear-padding" style="width: 18rem;">
@@ -162,17 +161,17 @@
                     <div class="card-body">
                         <h5 class="card-title">Marketing</h5>
                         <h6 class="card-subtitle mb-2 text-muted">COURSES</h6>
-                        <p class="card-text">Analytics, Content Marketing,<br>Mobile Marketing</p>
+                        <p class="text-secondary">Analytics, Content Marketing,<br>Mobile Marketing</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Section4 -->
-    <section class="container custom-padding-3">
-        <h1 class="text-center"><strong>Thesis exhibit</strong></h1>
-        <div class="row margin-left-24 margin-bottom-32">
-            <div class="col-7">
+    <section class="container min-vw-100 section4">
+        <div class="row margin-bottom-32">
+        <h1 class="text-center margin-top-32 margin-bottom-32"><strong>Thesis exhibit</strong></h1>
+            <div class="col-7 padding-lr-24">
                 <div>
                     <video width="100%" controls>
                         <source src="./videos/thesis.mp4" type="video/mp4">
@@ -188,23 +187,23 @@
             </div>
             <div class="col">
                 <div class="row padding-16 padding-bottom-16 bg-gray">
-                    <div class="col-4">
+                    <div class="col-4 clear-padding">
                         <div>
                             <img src="./images/thesis-fisma.jpg" width="100%">
                         </div>
                     </div>
-                    <div class="col d-flex flex-column justify-content-center">
+                    <div class="col d-flex flex-column justify-content-center padding-lr-16">
                         <h5>Fisma: Design and<br>Prototype</h5>
                         <p>Designer showcase of new<br>prototype product</p>
                     </div>
                 </div>
                 <div class="row padding-16 padding-bottom-16">
-                    <div class="col-4">
+                    <div class="col-4 clear-padding">
                         <div>
                             <img src="./images/thesis-now-and-then.jpg" width="100%">
                         </div>
                     </div>
-                    <div class="col d-flex flex-column justify-content-center">
+                    <div class="col d-flex flex-column justify-content-center padding-lr-16">
                         <h5>Now and then</h5>
                         <p>Research study about New York</p>
                     </div>
@@ -212,10 +211,10 @@
             </div>
         </div>
     </section>
-    <hr>
+    <hr class="hr2">
     <!-- Footer -->
-    <footer class="padding-16 padding-24 d-flex justify-content-between">
-        <p>&copy 2016 Colmar Academy.All rights reserved</p>
+    <footer class="padding-16 padding-lr-24 d-flex justify-content-between">
+        <p>&copy 2016 Colmar Academy. All rights reserved</p>
         <div class="d-flex">
             <p>Term</p>
             <p class="margin-left-24">Privacy</p>
