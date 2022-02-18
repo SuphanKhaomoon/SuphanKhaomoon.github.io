@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro JavaScript</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="suphan.css">
 </head>
 
@@ -17,6 +18,25 @@
             <button onclick="askMyName()" class="btn btn-primary">Ask My Name</button>
             <button onclick="helloWorld()" class="btn btn-info">Hello World</button>
             <script src="suphan.js"></script>
+        </div>
+    </section>
+
+    <section id="call-age">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h1 class="text-center text-info">Age Calculate</h1>
+            <button onclick="calAge()" class="btn btn-success">Age Calculate</button>
+        </div>
+    </section>
+
+    <section id="profile">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <p class="text-primary"><strong>Name:</strong>
+                <p id="my-name" class="text-info"></p>
+            </p>
+            <p class="text-success"><strong>Province:</strong>
+                <p id="my-province" class="text-primary"></p>
+            </p>
+            <button onclick="loadProfile()" class="btn btn-info">Load Profile</button>
         </div>
     </section>
 </body>
