@@ -14,7 +14,7 @@ function helloWorld() {
 function calAge() {
     const age = prompt('กรุณากรอกปีเกิดเป็นปี ค.ศ.');
 
-    if (age != null) {
+    if (age > 0) {
         const result = 2022 - age;
         alert(`ยินดีด้วย นายอยู่ในประเทศนี้มา ${result} ปีแล้ว`);
         console.log(age);
