@@ -17,7 +17,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="menu-bar padding-lr-24 bg-color">
+    <nav class="menu-bar padding-lr-24 bg-color d-sm-flex d-none">
         <div class="d-flex align-items-center">
             <img src="./images/ic-logo.svg" alt="logo" width="48px">
             <h3 class="font-size"><span class="text-color">COLMAR</span><span class="text-secondary">ACADEMY</span></h3>
@@ -29,9 +29,26 @@
             <li class="nav-item"><a href="#" class="link-secondary text-color">Sign in</a></li>
         </ul>
     </nav>
+    <!-- small visible -->
+    <nav class="d-sm-none">
+        <ul class="nav justify-content-evenly py-2">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><img src="./images/ic-logo.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="./images/ic-on-campus.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="./images/ic-online.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><img src="./images/ic-login.svg" alt=""></a>
+            </li>
+          </ul>
+    </nav>
 
     <!-- Section1 -->
-    <section class="container custom-padding-1-2 bg-gray min-vw-100">
+    <section class="container custom-padding-1-2 bg-gray min-vw-100 d-none d-sm-flex">
         <div class="row">
             <div class="col-7">
                 <img src="./images/banner.jpg" alt="banner" width="100%">
@@ -54,9 +71,19 @@
             </div>
         </div>
     </section>
+    <!-- small visible -->
+    <section class="d-flex d-sm-none flex-column mb-4">
+        <img src="./images/banner.jpg" alt="banner" width="100%">
+        <h1 class="py-4 ps-3 mt-2"><strong>Learn something</strong><br><strong>new everyday</strong></h1>
+        <p class="ps-3 mb-4">
+            <strong>Lorem ipsum dolor sit amet,</strong><br>
+            <strong>consectetur adipiscing elit.</strong>
+        </p>
+        <button type="button" class="bg-brown text-white mx-3 mb-2">Start here</button>
+    </section>
 
     <!-- Section2 -->
-    <section class="container min-vw-100">
+    <section class="container min-vw-100 d-sm-flex d-none">
         <div class="row">
             <div class="col-7 custom-padding-1-2">
                 <img src="./images/information-main.jpg" alt="information main" width="100%" height="auto">
@@ -106,9 +133,38 @@
             </div>
         </div>
     </section>
+    <!-- small visible -->
+    <section class="d-sm-none d-flex flex-column mb-2">
+            <div class="px-3 py-3">
+                <img src="./images/information-orientation.jpg" width="100%">
+            </div>
+            <div class="mx-3 px-3 mb-5">
+                <h3>Orientation date</h3>
+                <p class="margin-bottom-8">Tue 10/11 & 10/12: 8am-3pm</p>
+                <a href="#" class="">Read more</a>
+            </div>
+            <div class="px-3 py-3">
+                <img src="./images/information-campus.jpg" width="100%">
+            </div>
+            <div class="mx-3 px-3 mb-5">
+                <h3>Our Campus</h3>
+                <p class="margin-bottom-8">Find which campus is close by you</p>
+                <a href="#" class="">Read more</a>
+            </div>
+            <div class="px-3 py-3">
+                <img src="./images/information-guest-lecture.jpg" width="100%">
+            </div>
+            <div class="mx-3 px-3 mb-4">
+                <h3>Our guest lecture</h3>
+                <p class="margin-bottom-8">Find which campus is close by you</p>
+                <a href="#" class="">Read more</a>
+            </div>
+    </section>
+
+    <hr class="d-sm-none d-flex m-0">
 
     <!-- Section3 -->
-    <section class="custom-padding-3 custom-background min-vw-100 section3">
+    <section class="custom-padding-3 custom-background min-vw-100 section3 d-sm-flex d-none">
         <h1 class="text-center"><strong>Start learning</strong></h1>
         <div class="container padding-72">
             <div class="row margin-bottom-32">
@@ -166,9 +222,45 @@
             </div>
         </div>
     </section>
+    <!-- small visible -->
+    <section class="d-sm-none d-flex flex-column">
+        <h1 class="text-center margin-top-32"><strong>Start learning</strong></h1>
+        <div class="card my-2 mx-3">
+            <div class="card-body bg-gray">
+                <h3 class="card-title mb-0">Software engineering</h3>
+            </div>
+        </div>
+        <div class="card mx-3">
+            <div class="card-body bg-gray">
+                <h3 class="card-title mb-0">Computer art</h3>
+            </div>
+        </div>
+        <div class="card my-2 mx-3">
+            <div class="card-body bg-gray">
+                <h3 class="card-title mb-0">Design</h3>
+            </div>
+        </div>
+        <div class="card mx-3">
+            <div class="card-body bg-gray">
+                <h3 class="card-title mb-0">Data</h3>
+            </div>
+        </div>
+        <div class="card my-2 mx-3">
+            <div class="card-body bg-gray">
+                <h3 class="card-title mb-0">Businese</h3>
+            </div>
+        </div>
+        <div class="card mx-3 margin-bottom-32">
+            <div class="card-body bg-gray">
+                <h3 class="card-title mb-0">Marketing</h3>
+            </div>
+        </div>
+    </section>
+
+    <hr class="d-sm-none d-flex m-0">
 
     <!-- Section4 -->
-    <section class="container min-vw-100 section4">
+    <section class="container min-vw-100 section4 d-sm-flex d-none">
         <div class="row margin-bottom-32">
             <h1 class="text-center margin-top-32 margin-bottom-32"><strong>Thesis exhibit</strong></h1>
             <div class="col-7 padding-lr-24">
@@ -211,16 +303,26 @@
             </div>
         </div>
     </section>
+    <!-- small visible -->
+    <section class="d-sm-none d-flex flex-column mb-2">
+        <h1 class="text-center margin-top-32 margin-bottom-16"><strong>Thesis exhibit</strong></h1>
+        <video width="100%" controls>
+            <source src="./videos/thesis.mp4" type="video/mp4">
+        </video>
+    </section>
 
-    <hr class="hr2">
+    <hr class="hr2 d-sm-flex d-none">
 
     <!-- Footer -->
-    <footer class="padding-16 padding-lr-24 d-flex justify-content-between">
+    <footer class="padding-16 padding-lr-24 d-flex justify-content-between footer d-sm-flex d-none">
         <p>&copy 2016 Colmar Academy. All rights reserved</p>
         <div class="d-flex">
             <p>Term</p>
             <p class="margin-left-24">Privacy</p>
         </div>
+    </footer>
+    <footer class="d-sm-none d-flex justify-content-center py-3">
+        <p class="m-0">&copy 2016 Colmar Academy. All rights reserved</p>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

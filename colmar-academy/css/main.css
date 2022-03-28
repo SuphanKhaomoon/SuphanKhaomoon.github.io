@@ -227,7 +227,7 @@ button {
 }
 
 /* Footer */
-footer {
+.footer {
     position: relative;
     bottom: 64px;
 }
