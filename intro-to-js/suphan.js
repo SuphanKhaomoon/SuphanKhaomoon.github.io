@@ -17,7 +17,6 @@ function calAge() {
     if (age > 0 && age < 2022) {
         const result = 2022 - age;
         alert(`ยินดีด้วย นายอยู่ในประเทศนี้มา ${result} ปีแล้ว`);
-        console.log(age);
     } else {
         alert('ไม่ตรงตามเงื่อนไขให้คำนวณได้');
     }
