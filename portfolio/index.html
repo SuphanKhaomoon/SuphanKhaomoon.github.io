@@ -13,16 +13,20 @@
         body {
             font-family: 'Mali', cursive;
         }
+        section {
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
     </style>
     <title>My Portfolio</title>
 </head>
 <body>
     <!-- Header and Nav bar -->
     <header id="home">
-        <div class="container d-flex justify-content-lg-center justify-content-between fixed-top">
+        <div class="container d-flex justify-content-lg-center justify-content-between fixed-top opacity-75">
             <div class="row p-0 m-0">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-3">
                         <div class="container-fluid">
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -78,13 +82,13 @@
     </section>
     
     <!-- About Me Section -->
-    <section id="about-me" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);">
+    <section id="about-me" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);">
         <h3 class="text-center">About Me</h3>
         <p class="mx-5 px-5">I am currently a Junoir Software Developer learner, study towards my Generation Thailand Practitioner certificate. I have just recently completed the Software Developer programme in Bangkok, Thailand run by Generation Thailand. I have always held a strong interest in tech and enjoy programming. My strong points include problem-solving, persistence, communication skills, comfortable to work as an individual or as part of a team. I am currently looking to progress my career by taking on a Software Engineer position.</p>
     </section>
 
     <!-- Experiences Section -->
-    <section id="experiences" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);">
+    <section id="experiences" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80);">
         <h3 class="text-center mb-md-5">Experiences</h3>
         <div class="container">
             <div class="row mb-md-5">
@@ -147,7 +151,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);">
+    <section id="skills" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
         <h3 class="text-center">Skills</h3>
         <div class="container">
             <div class="row">
@@ -192,10 +196,10 @@
     </section>
 
     <!-- Project Section -->
-    <section id="projects" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);">
+    <section id="projects" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
         <h3 class="text-center mb-md-5">Projects</h3>
         <div class="container">
-            <div class="row mb-5">
+            <div class="row">
                 <div class="col-md-4 col-sm-12 mb-3">
                     <img class="w-100" src="./images/colmaracademy.JPG" alt="colmaracademy">
                 </div>
@@ -223,7 +227,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md-4 col-sm-12 mb-3">
                     <img class="w-100" src="./images/jammming.jpg" alt="colmaracademy">
                 </div>
@@ -251,12 +255,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <img class="w-100 rounded-3" src="./images/todolist.JPG" alt="todolist">
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="">TODOLIST</h5>
+                            <p>This project for us to create simple to-do-list where we can add, delete or list items by using knowledge that we have learned about Angular to apply.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <img class="w-25" src="https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png" alt="">
+                                    <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
+                                    <img class="w-25" src="https://www.vectorlogo.zone/logos/angular/angular-ar21.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <a href="https://github.com/SuphanKhaomoon/angular-part2-homework2"><img class="w-25 p-sm-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
+                                    <a href="https://angular-part2-homework2.vercel.app"><img class="w-25 p-sm-4" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);">
-        <h3 class="text-center mb-5">Education</h3>
+    <section id="education" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80);">
+        <h3 class="text-center mb-5 text-white">Education</h3>
         <div class="container d-felx">
             <div class="row justify-content-center px-md-5 mx-md-5 mb-3">
                 <div class="col">
@@ -308,7 +341,9 @@
                 </div>
             </div>
         </div>
-        
+        <div class="text-center">
+            inspiration background by Joe Woods, NordWood Themes, Kimberly Farmer from unslash.com
+        </div>  
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
