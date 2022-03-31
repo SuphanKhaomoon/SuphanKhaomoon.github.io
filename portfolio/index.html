@@ -9,46 +9,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-        body {
-            font-family: 'Mali', cursive;
-        }
-        section {
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/d9ddbe609f.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
 </head>
 <body>
     <!-- Header and Nav bar -->
     <header id="home">
-        <div class="container d-flex justify-content-lg-center justify-content-between fixed-top opacity-75">
-            <div class="row p-0 m-0">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-3">
+        <!-- <div class="container d-flex justify-content-evenly fixed-top opacity-75"> -->
+            <!-- <div class="row p-0 m-0"> -->
+                <!-- <div class="col"> -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75">
                         <div class="container-fluid">
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
-                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav">
-                              <li><a class="nav-link" aria-current="page" href="#about-me">About Me</a></li>
-                              <li><a class="nav-link" href="#experiences">Experiences</a></li>
-                              <li><a class="nav-link" href="#skills">Skills</a></li>
-                              <li><a class="nav-link" href="#projects">Projects</a></li>
-                              <li><a class="nav-link" href="#education">Education</a></li>
-                            </ul>
-                          </div>
+                          <!-- <div class="container d-flex justify-content-between"> -->
+                              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="container d-flex justify-content-center">
+                                    <ul class="navbar-nav">
+                                    <li><a class="nav-link" aria-current="page" href="#about-me">About Me</a></li>
+                                    <li><a class="nav-link" href="#education">Education</a></li>
+                                    <li><a class="nav-link" href="#experiences">Experiences</a></li>
+                                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                          <!-- </div> -->
                         </div>
                     </nav>
-                </div>
-            </div>
-        </div>
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
     </header>
 
     <!-- Home Section -->
-    <section class="py-5" id="home" style="background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);">
+    <section class="py-5" id="home">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -66,13 +64,28 @@
                 <div class="col-4">
                     <div class="row">
                         <div class="col-4">
-                            <a href="https://github.com/SuphanKhaomoon"><center><img class="w-50 mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></center></a>
+                            <a href="https://github.com/SuphanKhaomoon">
+                                <center>
+                                    <img class="w-100 d-sm-none mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt="">
+                                    <img class="w-50 d-sm-flex d-none mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt="">
+                                </center>
+                            </a>
                         </div>
                         <div class="col-4">
-                            <a href="https://drive.google.com/file/d/1zwN31ucuJBn--pXF5-ld0Pnh1TEpYLQK/view?usp=sharing"><center><img class="w-50 mx-auto" src="https://icon-library.com/images/icon-resume/icon-resume-11.jpg" alt=""></center></a>
+                            <a href="https://drive.google.com/file/d/1zwN31ucuJBn--pXF5-ld0Pnh1TEpYLQK/view?usp=sharing">
+                                <center>
+                                    <img class="w-100 d-sm-none mx-auto" src="https://icon-library.com/images/icon-resume/icon-resume-11.jpg" alt="">
+                                    <img class="w-50 d-sm-flex d-none mx-auto" src="https://icon-library.com/images/icon-resume/icon-resume-11.jpg" alt="">
+                                </center>
+                            </a>
                         </div>
                         <div class="col-4">
-                            <a href="https://www.linkedin.com/in/suphan-khaomoon-a3aa6322a/"><center><img class="w-50 mx-auto" src="http://cdn.onlinewebfonts.com/svg/img_150148.png" alt=""></center></a>
+                            <a href="https://www.linkedin.com/in/suphan-khaomoon-a3aa6322a/">
+                                <center>
+                                    <img class="w-100 d-sm-none mx-auto" src="http://cdn.onlinewebfonts.com/svg/img_150148.png" alt="">
+                                    <img class="w-50 d-sm-flex d-none mx-auto" src="http://cdn.onlinewebfonts.com/svg/img_150148.png" alt="">
+                                </center>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,214 +95,14 @@
     </section>
     
     <!-- About Me Section -->
-    <section id="about-me" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);">
+    <section id="about-me" class="py-5">
         <h3 class="text-center">About Me</h3>
-        <p class="mx-5 px-5">I am currently a Junoir Software Developer learner, study towards my Generation Thailand Practitioner certificate. I have just recently completed the Software Developer programme in Bangkok, Thailand run by Generation Thailand. I have always held a strong interest in tech and enjoy programming. My strong points include problem-solving, persistence, communication skills, comfortable to work as an individual or as part of a team. I am currently looking to progress my career by taking on a Software Engineer position.</p>
-    </section>
-
-    <!-- Experiences Section -->
-    <section id="experiences" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80);">
-        <h3 class="text-center mb-md-5">Experiences</h3>
-        <div class="container">
-            <div class="row mb-md-5">
-                <div class="col-md-4 col-sm-12">
-                    <h5 class="text-start">Jan 2015 - Present</h5>
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <h5>IT Support <span class="float-none float-md-end">Freelance</span></h5>
-                    <h6>Phoenix Inter Freight Co.,Ltd.</h6>
-                    <ul>
-                        <li>Maintain and repair computers, file servers and personal computers to be in normal working condition.</li>
-                        <li>Supervise, coordinate and troubleshoot the company's computer network system to work normally.</li>
-                        <li>Solve problems for users in the use of software and office equipment of the company.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mb-md-5">
-                <div class="col-md-4 col-sm-12">
-                    <h5 class="text-start">April 2000 - Oct 2020</h5>
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <h5>Actor (coupled together)  <span class="float-none float-md-end">Full-time</span></h5>
-                    <h6>Calypso Bangkok Entertainment Co., Ltd.</h6>
-                    <ul>
-                        <li>Prepare your body by warming up.</li>
-                        <li>Rehearsing performances in the show queue each day. According to the appointment of the supervisor</li>
-                        <li>Come and try new performances according to the idea of ​​the stage director</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mb-md-5">
-                <div class="col-md-4 col-sm-12">
-                    <h5 class="text-start">Jan 2015 - Jan 2017</h5>
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <h5>IT Application Support  <span class="float-none float-md-end">Full-time</span></h5>
-                    <h6>Ocean Life Insurance Co., Ltd.</h6>
-                    <ul>
-                        <li>Receive notification of problems using the software of the organization via phone or email with service mind.</li>
-                        <li>Coordinate problem solving with relevant departments both within or outside the department.</li>
-                        <li>Edit the data in the database using assistive tools such as Excel, Google Sheets, Squirrels, Visual Basics.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h5 class="text-start">May 2005 - Dec 2015</h5>
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <h5>Outbound Documentation  <span class="float-none float-md-end">Full-time</span></h5>
-                    <h6>Phoenix Inter Freight Co., Ltd.</h6>
-                    <ul>
-                        <li>Make documents, check for accuracy about export products to the company's customers</li>
-                        <li>Assist in sending or replying to e-mails to foreign agents from time to time</li>
-                        <li>Coordinate the confirmation of documents with the ship's export documentation staff in a timely manner to avoid costs incurred later</li>
-                    </ul>
-                </div>                                    
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
-        <h3 class="text-center">Skills</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 px-5">
-                    <h5 class="text-center">Technical Skills</h5>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <h6>MERN STACK</h6>
-                            <img class="w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6lNYm_u8EIEJu9pPCZPeM5nkHwoT4lFo6Q&usqp=CAU" alt="">
-                            <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
-                            <!-- <img class="w-25" src="https://www.vhv.rs/dpng/d/612-6126558_react-logo-png-react-js-logo-svg-transparent.png" alt=""> -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <h6>RELATIONAL DATABASE</h6>
-                            <img class="w-50" src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" alt="">
-                            <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
-                            <!-- <img class="w-25" src="https://www.vhv.rs/dpng/d/612-6126558_react-logo-png-react-js-logo-svg-transparent.png" alt=""> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 px-5">
-                    <h5 class="text-center">Soft Skills</h5>
-                    <h6>Mindsets</h6>
-                    <ul>
-                        <li>Growth Mindset</li>
-                        <li>Persistence</li>
-                        <li>Personal Responsibility</li>
-                        <li>Future Orientation</li>
-                    </ul>
-                    <h6>Behavior Skills</h6>
-                    <ul>
-                        <li>Proactiveness</li>
-                        <li>Time manaement</li>
-                        <li>Teamwork</li>
-                        <li>Orientation to details</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Project Section -->
-    <section id="projects" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
-        <h3 class="text-center mb-md-5">Projects</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-12 mb-3">
-                    <img class="w-100 rounded-3" src="./images/colmaracademy.JPG" alt="colmaracademy">
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <div class="row">
-                        <div class="col">
-                            <h5 class="">COLMARACADEMY</h5>
-                            <p>In this project, this is the result of learning html, css and bootstrap. The purpose is to bring what you have learned to write a web based on the specs that the exercises provide and can adjust according to small and large screen sizes.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
-                                    <img class="w-25" src="https://ohdoylerules.com/images/html5css3badges.png" alt="">
-                                    <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt="">
-                                </div>
-                                <div class="col">
-                                    <a href="https://github.com/SuphanKhaomoon/SuphanKhaomoon.github.io/tree/main/colmar-academy"><img class="w-25 p-sm-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
-                                    <a href="https://suphankhaomoon.github.io/colmar-academy/"><img class="w-25 p-sm-4" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-md-4 col-sm-12 mb-3">
-                    <img class="w-100 rounded-3" src="./images/jammming.jpg" alt="colmaracademy">
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <div class="row">
-                        <div class="col">
-                            <h5 class="">JAMMMING</h5>
-                            <p>In this project, I will build a React web application called Jammming. I will use my knowledge of React components, passing state, and requests with the Spotify API to build a website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
-                                    <img class="w-25" src="https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png" alt="">
-                                    <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
-                                    <img class="w-25" src="https://www.vhv.rs/dpng/d/612-6126558_react-logo-png-react-js-logo-svg-transparent.png" alt="">
-                                </div>
-                                <div class="col">
-                                    <a href="https://github.com/SuphanKhaomoon/jsd-jamming-assessment"><img class="w-25 p-sm-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
-                                    <a href="http://suphan.surge.sh/"><img class="w-25 p-sm-4" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-md-4 col-sm-12 mb-3">
-                    <img class="w-100 rounded-3" src="./images/todolist.JPG" alt="todolist">
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <div class="row">
-                        <div class="col">
-                            <h5 class="">TODOLIST</h5>
-                            <p>This project for us to create simple to-do-list where we can add, delete or list items by using knowledge that we have learned about Angular to apply.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
-                                    <img class="w-25" src="https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png" alt="">
-                                    <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
-                                    <img class="w-25" src="https://www.vectorlogo.zone/logos/angular/angular-ar21.png" alt="">
-                                </div>
-                                <div class="col">
-                                    <a href="https://github.com/SuphanKhaomoon/angular-part2-homework2"><img class="w-25 p-sm-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
-                                    <a href="https://angular-part2-homework2.vercel.app"><img class="w-25 p-sm-4" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p class="mx-md-5 mx-2 px-md-5 px-2"><span class="mx-3"></span>I am currently a Junior Software Developer learner, studying towards my Generation Thailand Practitioner certificate. I have just recently completed the Software Developer program in Bangkok, Thailand run by Generation Thailand. I have always held a strong interest in tech and enjoy programming. My strong points include problem-solving, persistence, communication skills, comfortable to work as an individual or as part of a team. I am currently looking to progress my career by taking on a Software Engineer position.</p>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="py-5" style="background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80);">
-        <h3 class="text-center mb-5 text-white">Education</h3>
+    <section id="education" class="pb-5">
+        <h3 class="text-center mb-5">Education</h3>
         <div class="container d-felx">
             <div class="row justify-content-center px-md-5 mx-md-5 mb-3">
                 <div class="col">
@@ -318,8 +131,237 @@
         </div>
     </section>
 
+    <!-- Experiences Section -->
+    <section id="experiences" class="py-5">
+        <h3 class="text-center mb-md-5">Experiences</h3>
+        <div class="container">
+            <div class="row mb-md-5">
+                <div class="col-md-4 col-sm-12">
+                    <h6 class="text-start">Jan 2015 - Present</h6>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <h5>IT Support (Freelance) <div class="float-none float-md-end fs-6">Bangkok, Thailand</div></h5>
+                    <h6>Phoenix Inter Freight Co.,Ltd.</h6>
+                    <ul>
+                        <li>Maintain and repair computers, file servers and personal computers to be in normal working condition.</li>
+                        <li>Supervise, coordinate and troubleshoot the company's computer network system to work normally.</li>
+                        <li>Solve problems for users in the use of software and office equipment of the company.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-md-5">
+                <div class="col-md-4 col-sm-12">
+                    <h6 class="text-start">April 2000 - Oct 2020</h6>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <h5>Actor (coupled together)  <div class="float-none float-md-end fs-6">Bangkok, Thailand</div></h5>
+                    <h6>Calypso Bangkok Entertainment Co., Ltd.</h6>
+                    <ul>
+                        <li>Prepare your body by warming up.</li>
+                        <li>Rehearsing performances in the show queue each day. According to the appointment of the supervisor</li>
+                        <li>Come and try new performances according to the idea of ​​the stage director</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-md-5">
+                <div class="col-md-4 col-sm-12">
+                    <h6 class="text-start">Jan 2015 - Jan 2017</h6>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <h5>IT Application Support  <div class="float-none float-md-end fs-6">Bangkok, Thailand</div></h5>
+                    <h6>Ocean Life Insurance Co., Ltd.</h6>
+                    <ul>
+                        <li>Receive notification of problems using the software of the organization via phone or email with service mind.</li>
+                        <li>Coordinate problem solving with relevant departments both within or outside the department.</li>
+                        <li>Edit the data in the database using assistive tools such as Excel, Google Sheets, Squirrels, Visual Basics.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h6 class="text-start">May 2005 - Dec 2015</h6>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <h5>Outbound Documentation  <div class="float-none float-md-end fs-6">Bangkok, Thailand</div></h5>
+                    <h6>Phoenix Inter Freight Co., Ltd.</h6>
+                    <ul>
+                        <li>Make documents, check for accuracy about export products to the company's customers</li>
+                        <li>Assist in sending or replying to e-mails to foreign agents from time to time</li>
+                        <li>Coordinate the confirmation of documents with the ship's export documentation staff in a timely manner to avoid costs incurred later</li>
+                    </ul>
+                </div>                                    
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <h3 class="text-center">Skills</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 px-5">
+                    <h5 class="text-center">Technical Skills</h5>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BOOSTRAP</li>
+                        <li>JAVASCRIPT</li>
+                        <li>TYPESCRIPT</li>
+                        <li>REACT</li>
+                        <li>ANGULAR</li>
+                        <li>MYSQL</li>
+                    </ul>
+                    <!-- <div class="row mb-3"> -->
+                        <!-- <div class="col"> -->
+                            <!-- <h6>MERN STACK</h6> -->
+                            <!-- <img class="w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6lNYm_u8EIEJu9pPCZPeM5nkHwoT4lFo6Q&usqp=CAU" alt=""> -->
+                            <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
+                            <!-- <img class="w-25" src="https://www.vhv.rs/dpng/d/612-6126558_react-logo-png-react-js-logo-svg-transparent.png" alt=""> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+                        <!-- <div class="col"> -->
+                            <!-- <h6>RELATIONAL DATABASE</h6> -->
+                            <!-- <img class="w-50" src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" alt=""> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+                <div class="col-md-6 px-5">
+                    <h5 class="text-center">Soft Skills</h5>
+                    <!-- <h6>Mindsets</h6> -->
+                    <ul>
+                        <li>Growth Mindset</li>
+                        <li>Persistence</li>
+                        <li>Personal Responsibility</li>
+                        <li>Future Orientation</li>
+                        <li>Proactiveness</li>
+                        <li>Time manaement</li>
+                        <li>Teamwork</li>
+                        <li>Orientation to details</li>
+                    </ul>
+                    <!-- <h6>Behavior Skills</h6> -->
+                    <!-- <ul>
+                        <li>Proactiveness</li>
+                        <li>Time manaement</li>
+                        <li>Teamwork</li>
+                        <li>Orientation to details</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="py-5">
+        <h3 class="text-center mb-5">Projects</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <img class="w-100 rounded-3" src="./images/colmaracademy.JPG" alt="colmaracademy">
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="">COLMARACADEMY</h5>
+                            <p>In this project, this is the result of learning html, css and bootstrap. The purpose is to bring what you have learned to write a web based on the specs that the exercises provide and can adjust according to small and large screen sizes.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <i class="fa-brands fa-bootstrap"></i>
+                                    <!-- <img class="w-25" src="https://ohdoylerules.com/images/html5css3badges.png" alt=""> -->
+                                    <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/SuphanKhaomoon/SuphanKhaomoon.github.io/tree/main/colmar-academy"><img class="icon-size" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
+                            <a href="https://suphankhaomoon.github.io/colmar-academy/"><img class="icon-size" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <img class="w-100 rounded-3" src="./images/jammming.jpg" alt="colmaracademy">
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="">JAMMMING</h5>
+                            <p>In this project, I will build a React web application called Jammming. I will use my knowledge of React components, passing state, and requests with the Spotify API to build a website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <i class="fa-brands fa-js-square"></i>
+                                    <i class="fa-brands fa-react"></i>
+                                    <!-- <img class="w-25" src="https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png" alt=""> -->
+                                    <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
+                                    <!-- <img class="w-25" src="https://www.vhv.rs/dpng/d/612-6126558_react-logo-png-react-js-logo-svg-transparent.png" alt=""> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/SuphanKhaomoon/jsd-jamming-assessment"><img class="icon-size" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
+                            <a href="http://suphan.surge.sh/"><img class="icon-size" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <img class="w-100 rounded-3" src="./images/todolist.JPG" alt="todolist">
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="">TODOLIST</h5>
+                            <p>This project for us to create simple to-do-list where we can add, delete or list items by using knowledge that we have learned about Angular to apply.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <i class="fa-brands fa-js-square"></i>
+                                    <i class="fa-brands fa-angular"></i>
+                                    <!-- <img class="w-25" src="https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png" alt=""> -->
+                                    <!-- <img class="w-25" src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt=""> -->
+                                    <!-- <img class="w-25" src="https://www.vectorlogo.zone/logos/angular/angular-ar21.png" alt=""> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/SuphanKhaomoon/angular-part2-homework2"><img class="icon-size" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt=""></a>
+                            <a href="https://angular-part2-homework2.vercel.app"><img class="icon-size" src="https://freesvg.org/img/provider-internet.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="bg-secondary">
+    <footer id="contact" class="bg-secondary">
         <p class="text-white text-center pt-3">Suphan Khaomoon<span>©2022</span> </p>
         <div class="container d-flex justify-content-center">
             <div class="row">
@@ -342,7 +384,7 @@
             </div>
         </div>
         <div class="text-center">
-            inspiration background by Joe Woods, NordWood Themes, Kimberly Farmer from unslash.com
+            Inspiration by Oat Phattaraphon Chomchaiyaphum
         </div>  
     </footer>
 
