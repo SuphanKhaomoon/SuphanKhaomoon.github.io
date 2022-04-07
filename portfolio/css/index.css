@@ -17,8 +17,9 @@ section {
 }
 
 .icon-size {
-    width: 89px;
-    height: 89px;
-    padding: 24px 48px 24px 0;
+    width: 36px;
+    height: 36px;
+    margin: 32px 16px 0 0;
+    /* padding: 24px 48px 24px 0; */
 }
 
